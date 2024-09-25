@@ -12,7 +12,7 @@ functions:
     timeout: 15
     events:
       - http:
-          path: slack/events
+          path: /slack/events
           method: post
 plugins:
   - serverless-offline
