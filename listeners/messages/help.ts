@@ -8,6 +8,7 @@ const helpCallback = async ({ client, message }: AllMiddlewareArgs & SlackEventM
         await client.chat.postEphemeral({
             channel: userMessage.channel,
             user: userMessage.user,
+            "text": "!play - starts music playback, !pause - pause playback, !skip - skip playback, !queue - show the queue, !search string - search your string",
             "blocks": [
                 {
                     "type": "header",
