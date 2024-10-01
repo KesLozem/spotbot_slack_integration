@@ -30,7 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^8.4.0",
     "@typescript-eslint/parser": "^8.4.0",
     "eslint": "^9.9.1",
-    "serverless-offline": "^13.8.0",
+    "serverless-offline": "^14.3.2",
     "typescript": "^5.5.4"
   }
 }
